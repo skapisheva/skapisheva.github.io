@@ -1,0 +1,105 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.logo {
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    @extend %PlayfairDisplay-900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.menu {
+    padding: 45px 0;
+
+    &__btn {
+        display: none;
+    }
+
+    &__list {
+        text-align: center;
+    }
+
+    &__item {
+        display: inline-block;
+    }
+
+    &__item+&__item {
+        padding-left: 45px;
+    }
+
+    &__link {
+        @extend %Raleway-400;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+.slider {
+    min-height: 464px;
+    background-image: url('../images/slider-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    &__sup-title {
+        display: inline-block;
+        padding: 5px 15px;
+        margin-top: 60px;
+        background-color: #FF7931;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        padding: 44px 0;
+        @extend %Raleway-300;
+        font-size: 72px;
+        line-height: 85px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        max-width: 456px;
+        margin: 0 auto;
+        padding-top: 97px;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 60%;
+        width: 42px;
+        height: 42px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    &__btn-prev {
+        transform: translateX(-100%);
+        border-right: 1px solid #FFFFFF;
+    }
+
+    &__btn-next {
+        border-left: 1px solid #FFFFFF;
+    }
+
+}
+
+
+
+
+@import "media";
