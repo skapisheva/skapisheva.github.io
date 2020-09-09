@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    color: #000000;
+    @extend %Raleway-400;
+    font-size: 14px;
+    line-height: 21px;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section__btn {
+    position: relative;
+    display: inline-block;
+    padding: 17px 59px 15px 30px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    @extend %Raleway-400;
+    border: 2px solid #FF9A64;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.section__btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/arrow-btn.svg');
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+
+.section__btn:hover {
+    background: #FF7931;
+    transition: all 0.3s ease;
+}
+
+.title-dark {
+    color: #1A1C1C;
+}
+
+.title-light {
+    color: #ffffff;
+}
