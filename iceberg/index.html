@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div
+            class="header__top-inner d-flex flex-column align-items-center justify-content-sm-between flex-sm-column align-items-sm-center flex-md-row flex-md-wrap align-items-md-center flex-lg-wrap">
+            <form class="header__top-search">
+              <input class="header__top-search-input" type="text" placeholder="Поиск по сайту">
+              <button class="header__top-search-btn" type="submit">
+                <img src="images/search-icon.svg" alt="search icon">
+              </button>
+            </form>
+            <div class="header__phone">
+              <a class="header__phone-link" href="tel:+74912505016">+7 (4912) 50-50-16</a>
+              <div class="header__phone-add">
+                <span class="header__phone-addnum">
+                  (доб. 1003)
+                </span>
+                - Администратор
+              </div>
+            </div>
+            <div class="header__address">
+              Рязань, ул. Шевченко, 51
+            </div>
+            <ul class="social d-flex justify-content-between align-items-center">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M24.9755 7.35007C24.917 6.02172 24.7022 5.1085 24.3945 4.31717C24.077 3.4772 23.5886 2.72518 22.9488 2.10002C22.3236 1.46513 21.5666 0.971793 20.7364 0.659309C19.9405 0.351593 19.032 0.136784 17.7037 0.0782166C16.3654 0.0146894 15.9406 0 12.5464 0C9.15216 0 8.72731 0.0146894 7.39401 0.0732565C6.06566 0.131824 5.15244 0.346824 4.36131 0.654348C3.52115 0.971793 2.76912 1.46017 2.14396 2.10002C1.50907 2.72518 1.01593 3.48216 0.703253 4.3124C0.395538 5.1085 0.180729 6.01676 0.122162 7.34511C0.0586347 8.68338 0.0439453 9.10822 0.0439453 12.5024C0.0439453 15.8967 0.0586347 16.3215 0.117202 17.6548C0.175769 18.9832 0.390769 19.8964 0.698484 20.6877C1.01593 21.5277 1.50907 22.2797 2.14396 22.9049C2.76912 23.5398 3.52611 24.0331 4.35635 24.3456C5.15244 24.6533 6.0607 24.8681 7.38924 24.9267C8.72235 24.9854 9.14739 24.9999 12.5416 24.9999C15.9358 24.9999 16.3607 24.9854 17.694 24.9267C19.0223 24.8681 19.9355 24.6533 20.7267 24.3456C22.4068 23.696 23.7351 22.3677 24.3847 20.6877C24.6923 19.8916 24.9073 18.9832 24.9658 17.6548C25.0244 16.3215 25.0391 15.8967 25.0391 12.5024C25.0391 9.10822 25.0341 8.68338 24.9755 7.35007ZM22.7242 17.5571C22.6705 18.7781 22.4654 19.4374 22.2944 19.8769C21.8744 20.966 21.01 21.8304 19.9209 22.2505C19.4813 22.4214 18.8172 22.6265 17.6011 22.6801C16.2825 22.7389 15.887 22.7534 12.5513 22.7534C9.21569 22.7534 8.81526 22.7389 7.50141 22.6801C6.28047 22.6265 5.62116 22.4214 5.18162 22.2505C4.63964 22.0502 4.14631 21.7328 3.74587 21.3176C3.33075 20.9123 3.01331 20.4239 2.813 19.8819C2.64207 19.4424 2.43699 18.7781 2.38338 17.5621C2.32462 16.2435 2.31013 15.8478 2.31013 12.5122C2.31013 9.17652 2.32462 8.77609 2.38338 7.46243C2.43699 6.24149 2.64207 5.58218 2.813 5.14264C3.01331 4.60047 3.33076 4.10732 3.75083 3.7067C4.15603 3.29158 4.64441 2.97414 5.18658 2.77402C5.62612 2.60309 6.29039 2.39801 7.50637 2.34421C8.82499 2.28564 9.22065 2.27095 12.5561 2.27095C15.8967 2.27095 16.2922 2.28564 17.606 2.34421C18.827 2.39801 19.4863 2.60309 19.9258 2.77402C20.4678 2.97414 20.9611 3.29158 21.3616 3.7067C21.7767 4.11209 22.0941 4.60047 22.2944 5.14264C22.4654 5.58218 22.6705 6.24626 22.7242 7.46243C22.7828 8.78105 22.7975 9.17652 22.7975 12.5122C22.7975 15.8478 22.7828 16.2385 22.7242 17.5571Z"
+                        fill="#0082C8" />
+                      <path
+                        d="M12.5463 6.08032C9.0008 6.08032 6.12415 8.95678 6.12415 12.5025C6.12415 16.0482 9.0008 18.9246 12.5463 18.9246C16.092 18.9246 18.9684 16.0482 18.9684 12.5025C18.9684 8.95678 16.092 6.08032 12.5463 6.08032ZM12.5463 16.6684C10.2462 16.6684 8.38041 14.8028 8.38041 12.5025C8.38041 10.2021 10.2462 8.33658 12.5463 8.33658C14.8466 8.33658 16.7122 10.2021 16.7122 12.5025C16.7122 14.8028 14.8466 16.6684 12.5463 16.6684Z"
+                        fill="#0082C8" />
+                      <path
+                        d="M20.7219 5.8263C20.7219 6.65426 20.0506 7.32558 19.2224 7.32558C18.3945 7.32558 17.7231 6.65426 17.7231 5.8263C17.7231 4.99816 18.3945 4.32703 19.2224 4.32703C20.0506 4.32703 20.7219 4.99816 20.7219 5.8263Z"
+                        fill="#0082C8" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="31" height="25" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M15.6873 25.1875C20.172 25.1875 18.5729 22.3484 18.919 21.5321C18.9139 20.9224 18.9087 20.336 18.9294 19.9795C19.2135 20.0596 19.8839 20.3993 21.2686 21.7452C23.4063 23.9023 23.9527 25.1875 25.6796 25.1875H28.8584C29.8659 25.1875 30.3903 24.7703 30.6525 24.4202C30.9057 24.0818 31.1537 23.4877 30.8825 22.5628C30.1733 20.336 26.0374 16.4907 25.7804 16.0851C25.8191 16.0102 25.8811 15.9107 25.9134 15.8591H25.9108C26.7272 14.7805 29.8427 10.1125 30.3012 8.24471C30.3025 8.24212 30.3038 8.23825 30.3038 8.23438C30.5518 7.38187 30.3245 6.82904 30.0894 6.51646C29.7355 6.04888 29.1723 5.8125 28.4115 5.8125H25.2327C24.1684 5.8125 23.3611 6.34854 22.9529 7.32633C22.2696 9.06362 20.3502 12.6364 18.9113 13.9009C18.8674 12.1094 18.8971 10.7415 18.9203 9.72496C18.9668 7.74225 19.1167 5.8125 17.059 5.8125H12.0629C10.7738 5.8125 9.54025 7.22042 10.8758 8.89183C12.0435 10.3566 11.2956 11.1729 11.5475 15.2365C10.5658 14.1838 8.8195 11.3408 7.58467 7.70737C7.2385 6.72442 6.71408 5.81379 5.23771 5.81379H2.05892C0.769833 5.81379 0 6.51646 0 7.69317C0 10.3359 5.84996 25.1875 15.6873 25.1875ZM5.23771 7.75129C5.518 7.75129 5.54642 7.75129 5.75437 8.34158C7.01892 12.0655 9.85542 17.5757 11.9272 17.5757C13.4837 17.5757 13.4837 15.9805 13.4837 15.3799L13.4824 10.5981C13.3972 9.01583 12.8211 8.22792 12.4426 7.75L16.9738 7.75517C16.9764 7.77713 16.948 13.0445 16.9867 14.3207C16.9867 16.1329 18.4256 17.1714 20.6718 14.8981C23.042 12.223 24.6812 8.22404 24.747 8.06129C24.8439 7.82879 24.9279 7.75 25.2327 7.75H28.4115H28.4244C28.4231 7.75387 28.4231 7.75775 28.4218 7.76162C28.1312 9.11787 25.2624 13.4398 24.3027 14.7818C24.2872 14.8025 24.273 14.8245 24.2588 14.8464C23.8364 15.5362 23.4928 16.2982 24.3169 17.3703H24.3182C24.3931 17.4607 24.5882 17.6726 24.8723 17.9671C25.7558 18.879 28.7861 21.9971 29.0547 23.2371C28.8765 23.2655 28.6828 23.2448 25.6796 23.2513C25.0403 23.2513 24.5404 22.2955 22.6326 20.3709C20.9172 18.702 19.8038 18.02 18.7899 18.02C16.8214 18.02 16.9647 19.6178 16.9828 21.5502C16.9893 23.6453 16.9764 22.9826 16.9906 23.1144C16.8756 23.1596 16.5462 23.25 15.6873 23.25C7.49167 23.25 2.1545 10.2416 1.94912 7.75517C2.02017 7.74871 2.99796 7.75258 5.23771 7.75129Z"
+                        fill="#0082C8" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="31" height="31" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <a class="sale-btn" href="#">
+              Купить билет
+            </a>
+            <a class="slabovid" href="#">
+              <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M29.7755 7.41377C29.5078 7.11506 23.0668 0.0898438 14.9995 0.0898438C6.93224 0.0898438 0.491377 7.11506 0.223545 7.41377C-0.075166 7.74764 -0.075166 8.25236 0.223545 8.58623C0.491377 8.88494 6.93235 15.9102 14.9995 15.9102C23.0667 15.9102 29.5077 8.88494 29.7755 8.58623C30.0742 8.25236 30.0742 7.74764 29.7755 7.41377ZM14.9995 14.1523C11.6075 14.1523 8.8472 11.3921 8.8472 8C8.8472 4.60795 11.6075 1.84766 14.9995 1.84766C18.3916 1.84766 21.1519 4.60795 21.1519 8C21.1519 11.3921 18.3916 14.1523 14.9995 14.1523Z"
+                  fill="#0082C8" />
+                <path
+                  d="M15.8789 6.24219C15.8789 5.35801 16.3178 4.58018 16.9856 4.10176C16.3864 3.79502 15.7181 3.60547 15 3.60547C12.577 3.60547 10.6055 5.57697 10.6055 8C10.6055 10.423 12.577 12.3945 15 12.3945C17.1694 12.3945 18.9649 10.8105 19.3196 8.74074C17.5498 9.31057 15.8789 7.97199 15.8789 6.24219Z"
+                  fill="#0082C8" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__logo">
+        <div class="container">
+          <div class="header__logo-inner">
+            <a class="header__logo-link" href="#">
+              <img class="header__logo-img" src="images/logo.svg" alt="Логотип">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="menu">
+        <div class="container">
+          <ul
+            class="menu__list nav d-flex justify-content-between flex-column align-items-center flex-md-row flex-md-wrap justify-content-md-center align-items-md-center flex-lg-wrap justify-content-xl-between">
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link active" href="#">
+                Об организации
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Спортивная подготовка
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Дополнительные услуги
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Расписание
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Новости
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Анонсы
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Для рекламодателей
+              </a>
+            </li>
+            <li class="menu__list-item nav-item">
+              <a class="menu__list-link nav-link" href="#">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/slider/slide-1.jpg" alt="изображение">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slider/slide-1.jpg" alt="изображение">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slider/slide-1.jpg" alt="изображение">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slider/slide-1.jpg" alt="изображение">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slider/slide-1.jpg" alt="изображение">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <svg id="prev-icon" width="42" height="72" viewBox="0 0 42 72" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect width="50.0378" height="8.00604" rx="4.00302"
+                transform="matrix(-0.705904 0.708307 0.705904 0.708307 35.3551 0.0914307)" fill="#A2D9F7"
+                fill-opacity="0.75" />
+              <rect width="50.0285" height="8.00455" rx="4.00228"
+                transform="matrix(0.706704 0.707509 0.706704 -0.707509 0.355103 36.2957)" fill="#A2D9F7"
+                fill-opacity="0.75" />
+            </svg>
+          </span>
+          <span class="sr-only">Prev</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <svg id="next-icon" width="42" height="72" viewBox="0 0 42 72" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="6.01221" width="50" height="8" rx="4" transform="rotate(45 6.01221 0)" fill="#A2D9F7"
+                fill-opacity="0.75" />
+              <rect x="41.0122" y="36.163" width="50" height="8" rx="4" transform="rotate(135 41.0122 36.163)"
+                fill="#A2D9F7" fill-opacity="0.75" />
+            </svg>
+          </span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="info">
+        <div class="container">
+          <div class="info__inner d-flex flex-column justify-content-between align-items-center flex-md-row">
+            <div class="info__item">
+              <a class="info__link d-flex flex-column align-items-center" href="#">
+                <img class="info__img" src="images/parents-icon.svg" alt="partners icon">
+                <h6 class="info__title bg-infotitle bg-infotitle--first">
+                  Информация для родителей
+                </h6>
+                подробнее
+              </a>
+            </div>
+            <div class="info__item">
+              <a class="info__link d-flex flex-column align-items-center" href="#">
+                <img class="info__img" src="images/calendar-icon.svg" alt="calendar icon">
+                <h6 class="info__title bg-infotitle bg-infotitle--second">
+                  Календарь
+                  соревнований
+                </h6>
+                подробнее
+              </a>
+            </div>
+            <div class="info__item">
+              <a class="info__link d-flex flex-column align-items-center" href="#">
+                <img class="info__img" src="images/cup-icon.svg" alt="cup icon">
+                <h6 class="info__title bg-infotitle bg-infotitle--third">
+                  Лучшие
+                  спортсмены
+                </h6>
+                подробнее
+              </a>
+            </div>
+            <div class="info__item">
+              <a class="info__link d-flex flex-column align-items-center" href="#">
+                <img class="info__img" src="images/coach-icon.svg" alt="coach icon">
+                <h6 class="info__title bg-infotitle bg-infotitle--fourth">
+                  Тренерский
+                  состав
+                </h6>
+                подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="news">
+        <div class="container">
+          <div
+            class="news__inner d-flex flex-column align-items-center flex-md-row justify-content-md-start align-items-md-start">
+            <div class="news__box">
+              <h2 class="news__title">
+                Новости
+              </h2>
+              <div class="news__items">
+                <div class="news__item d-flex justify-content-between">
+                  <div class="news__date">
+                    <a class="news__date-link" href="#">
+                      <span class="news__num">
+                        17
+                      </span>
+                      <span class="news__month">
+                        февраля
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news__content d-flex flex-column flex-md-row justify-content-md-start">
+                    <img class="news__content-img" src="images/news/1.jpg" alt="Фото">
+                    <div class="news__content-box">
+                      <a class="news__content-link" href="#">
+                        <h3 class="news__content-title">
+                          Русский вратарь Сорокин наконец-то победил в НХЛ! И попал в трогательные объятия партнёров
+                        </h3>
+                      </a>
+                      <p class="news__content-text">
+                        Хоккеисты «Айлендерс» поздравляли Илью не только с долгожданным выигранным матчем, но и с
+                        заслуженным «сухарём».
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__item d-flex justify-content-start">
+                  <div class="news__date">
+                    <a class="news__date-link" href="#">
+                      <span class="news__num">
+                        16
+                      </span>
+                      <span class="news__month">
+                        февраля
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news__content d-flex flex-column flex-md-row justify-content-md-start">
+                    <img class="news__content-img" src="images/news/2.jpg" alt="Фото">
+                    <div class="news__content-box">
+                      <a class="news__content-link" href="#">
+                        <h3 class="news__content-title">
+                          Знарок снова проиграл СКА! <br>
+                          Тренер-чемпион всё дальше от плей-офф
+                        </h3>
+                      </a>
+                      <p class="news__content-text">
+                        Олимпийский чемпион Пхёнчхана и его команда так и не оправились от предыдущего разгрома.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__item d-flex justify-content-start">
+                  <div class="news__date">
+                    <a class="news__date-link" href="#">
+                      <span class="news__num">
+                        15
+                      </span>
+                      <span class="news__month">
+                        февраля
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news__content d-flex flex-column flex-md-row justify-content-md-start">
+                    <img class="news__content-img" src="images/news/3.jpg" alt="Фото">
+                    <div class="news__content-box">
+                      <a class="news__content-link" href="#">
+                        <h3 class="news__content-title">
+                          «Спартак» Знарка останется без плей-офф? Ключевые интриги финальной части регулярки КХЛ
+                        </h3>
+                      </a>
+                      <p class="news__content-text">
+                        «Ак Барс» и ЦСКА в очном матче сыграют за Кубок Континента, а «Динамо» и «Локомотив» заочно
+                        определят, кому рубиться с «Йокеритом».
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="news__btn" href="#">
+                Все новости
+              </a>
+            </div>
+            <article class="announce">
+              <h2 class="announce__title">
+                Анонсы
+              </h2>
+              <div class="announce__content">
+                <img class="announce__content-img" src="images/news/announce-1.jpg" alt="Фото">
+                <a class="announce__content-link" href="#">
+                  <h3 class="announce__content-title">
+                    ВСЕ НА ХОККЕЙ!!! Первенство высшей хоккейной лиги
+                  </h3>
+                </a>
+                <a class="announce__content-date" href="#">
+                  8 февраля 2021
+                </a>
+                <p class="announce__content-text">
+                  Описание данного блока в одно-два предложения.
+                </p>
+              </div>
+              <a class="announce__btn" href="#">
+                Все анонсы
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="container">
+          <div class="partners__inner d-flex flex-column flex-lg-row justify-content-lg-between">
+            <div class="partners__slider">
+              <h3 class="partners__title">
+                Наши партнеры
+              </h3>
+              <div class="partners__slider-container swiper-container">
+                <div class="partners__slider-wrapper swiper-wrapper">
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-1.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-2.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-3.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-4.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-5.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-1.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-2.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-3.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-4.png" alt="partner">
+                    </a>
+                  </div>
+                  <div class="partners__slide swiper-slide">
+                    <a class="partners__slide-link" href="#">
+                      <img class="partners__slide-img" src="images/partners/partners-5.png" alt="partner">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-button-prev">
+                  <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20.9737" height="3.35579" rx="1.67789"
+                      transform="matrix(-0.707107 0.707107 0.707107 0.707107 14.8306 0)" fill="#C4C4C4" />
+                    <rect width="20.9737" height="3.35579" rx="1.67789"
+                      transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.149048 15.1695)" fill="#C4C4C4" />
+                  </svg>
+                </div>
+                <div class="swiper-button-next">
+                  <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2.52197" width="20.9737" height="3.35579" rx="1.67789" transform="rotate(45 2.52197 0)"
+                      fill="#C4C4C4" />
+                    <rect x="17.2035" y="15.1695" width="20.9737" height="3.35579" rx="1.67789"
+                      transform="rotate(135 17.2035 15.1695)" fill="#C4C4C4" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="links-box">
+              <h3 class="links-box__title">
+                Полезные ссылки
+              </h3>
+              <div class="links-box__inner d-flex justify-content-around align-items-center justify-content-lg-between">
+                <a class="links-box__item" href="#">
+                  <img class="links-box__img" src="images/partners/minsport-ro.png" alt="Минспорт РО">
+                  Минспорт РО
+                </a>
+                <a class="links-box__item" href="#">
+                  <img class="links-box__img" src="images/partners/minsport-rf.png" alt="Минспорт РФ">
+                  Минспорт РФ
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner d-flex flex-column flex-md-row justify-content-md-between">
+          <div class="footer__item">
+            <a class="footer__logo-link" href="#">
+              <img class="footer__logo-img" src="images/logo-footer.svg" alt="Логотип">
+            </a>
+            <div class="footer__phone">
+              <a class="footer__phone-link" href="tel:+74912505016">+7 (4912) 50-50-16</a>
+              <span class="footer__phone-add">
+                (доб. 1003) - Администратор
+              </span>
+            </div>
+            <div class="footer__address">
+              Рязань, ул. Шевченко, 51
+            </div>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">
+                  Официальный сайт РАА «РУСАДА»
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">
+                  Образовательный антидопинговый онлайн-ресурс
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">
+                  Официальный сервис по проверке препаратов
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">
+                  Система ADAMS
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">
+                  Информация о дисквалификации
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item d-flex flex-column justify-content-between align-items-end">
+            <ul class="social d-flex justify-content-end align-items-center">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M24.9755 7.35007C24.917 6.02172 24.7022 5.1085 24.3945 4.31717C24.077 3.4772 23.5886 2.72518 22.9488 2.10002C22.3236 1.46513 21.5666 0.971793 20.7364 0.659309C19.9405 0.351593 19.032 0.136784 17.7037 0.0782166C16.3654 0.0146894 15.9406 0 12.5464 0C9.15216 0 8.72731 0.0146894 7.39401 0.0732565C6.06566 0.131824 5.15244 0.346824 4.36131 0.654348C3.52115 0.971793 2.76912 1.46017 2.14396 2.10002C1.50907 2.72518 1.01593 3.48216 0.703253 4.3124C0.395538 5.1085 0.180729 6.01676 0.122162 7.34511C0.0586347 8.68338 0.0439453 9.10822 0.0439453 12.5024C0.0439453 15.8967 0.0586347 16.3215 0.117202 17.6548C0.175769 18.9832 0.390769 19.8964 0.698484 20.6877C1.01593 21.5277 1.50907 22.2797 2.14396 22.9049C2.76912 23.5398 3.52611 24.0331 4.35635 24.3456C5.15244 24.6533 6.0607 24.8681 7.38924 24.9267C8.72235 24.9854 9.14739 24.9999 12.5416 24.9999C15.9358 24.9999 16.3607 24.9854 17.694 24.9267C19.0223 24.8681 19.9355 24.6533 20.7267 24.3456C22.4068 23.696 23.7351 22.3677 24.3847 20.6877C24.6923 19.8916 24.9073 18.9832 24.9658 17.6548C25.0244 16.3215 25.0391 15.8967 25.0391 12.5024C25.0391 9.10822 25.0341 8.68338 24.9755 7.35007ZM22.7242 17.5571C22.6705 18.7781 22.4654 19.4374 22.2944 19.8769C21.8744 20.966 21.01 21.8304 19.9209 22.2505C19.4813 22.4214 18.8172 22.6265 17.6011 22.6801C16.2825 22.7389 15.887 22.7534 12.5513 22.7534C9.21569 22.7534 8.81526 22.7389 7.50141 22.6801C6.28047 22.6265 5.62116 22.4214 5.18162 22.2505C4.63964 22.0502 4.14631 21.7328 3.74587 21.3176C3.33075 20.9123 3.01331 20.4239 2.813 19.8819C2.64207 19.4424 2.43699 18.7781 2.38338 17.5621C2.32462 16.2435 2.31013 15.8478 2.31013 12.5122C2.31013 9.17652 2.32462 8.77609 2.38338 7.46243C2.43699 6.24149 2.64207 5.58218 2.813 5.14264C3.01331 4.60047 3.33076 4.10732 3.75083 3.7067C4.15603 3.29158 4.64441 2.97414 5.18658 2.77402C5.62612 2.60309 6.29039 2.39801 7.50637 2.34421C8.82499 2.28564 9.22065 2.27095 12.5561 2.27095C15.8967 2.27095 16.2922 2.28564 17.606 2.34421C18.827 2.39801 19.4863 2.60309 19.9258 2.77402C20.4678 2.97414 20.9611 3.29158 21.3616 3.7067C21.7767 4.11209 22.0941 4.60047 22.2944 5.14264C22.4654 5.58218 22.6705 6.24626 22.7242 7.46243C22.7828 8.78105 22.7975 9.17652 22.7975 12.5122C22.7975 15.8478 22.7828 16.2385 22.7242 17.5571Z"
+                        fill="#FFFFFF" />
+                      <path
+                        d="M12.5463 6.08032C9.0008 6.08032 6.12415 8.95678 6.12415 12.5025C6.12415 16.0482 9.0008 18.9246 12.5463 18.9246C16.092 18.9246 18.9684 16.0482 18.9684 12.5025C18.9684 8.95678 16.092 6.08032 12.5463 6.08032ZM12.5463 16.6684C10.2462 16.6684 8.38041 14.8028 8.38041 12.5025C8.38041 10.2021 10.2462 8.33658 12.5463 8.33658C14.8466 8.33658 16.7122 10.2021 16.7122 12.5025C16.7122 14.8028 14.8466 16.6684 12.5463 16.6684Z"
+                        fill="#FFFFFF" />
+                      <path
+                        d="M20.7219 5.8263C20.7219 6.65426 20.0506 7.32558 19.2224 7.32558C18.3945 7.32558 17.7231 6.65426 17.7231 5.8263C17.7231 4.99816 18.3945 4.32703 19.2224 4.32703C20.0506 4.32703 20.7219 4.99816 20.7219 5.8263Z"
+                        fill="#FFFFFF" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="31" height="25" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M15.6873 25.1875C20.172 25.1875 18.5729 22.3484 18.919 21.5321C18.9139 20.9224 18.9087 20.336 18.9294 19.9795C19.2135 20.0596 19.8839 20.3993 21.2686 21.7452C23.4063 23.9023 23.9527 25.1875 25.6796 25.1875H28.8584C29.8659 25.1875 30.3903 24.7703 30.6525 24.4202C30.9057 24.0818 31.1537 23.4877 30.8825 22.5628C30.1733 20.336 26.0374 16.4907 25.7804 16.0851C25.8191 16.0102 25.8811 15.9107 25.9134 15.8591H25.9108C26.7272 14.7805 29.8427 10.1125 30.3012 8.24471C30.3025 8.24212 30.3038 8.23825 30.3038 8.23438C30.5518 7.38187 30.3245 6.82904 30.0894 6.51646C29.7355 6.04888 29.1723 5.8125 28.4115 5.8125H25.2327C24.1684 5.8125 23.3611 6.34854 22.9529 7.32633C22.2696 9.06362 20.3502 12.6364 18.9113 13.9009C18.8674 12.1094 18.8971 10.7415 18.9203 9.72496C18.9668 7.74225 19.1167 5.8125 17.059 5.8125H12.0629C10.7738 5.8125 9.54025 7.22042 10.8758 8.89183C12.0435 10.3566 11.2956 11.1729 11.5475 15.2365C10.5658 14.1838 8.8195 11.3408 7.58467 7.70737C7.2385 6.72442 6.71408 5.81379 5.23771 5.81379H2.05892C0.769833 5.81379 0 6.51646 0 7.69317C0 10.3359 5.84996 25.1875 15.6873 25.1875ZM5.23771 7.75129C5.518 7.75129 5.54642 7.75129 5.75437 8.34158C7.01892 12.0655 9.85542 17.5757 11.9272 17.5757C13.4837 17.5757 13.4837 15.9805 13.4837 15.3799L13.4824 10.5981C13.3972 9.01583 12.8211 8.22792 12.4426 7.75L16.9738 7.75517C16.9764 7.77713 16.948 13.0445 16.9867 14.3207C16.9867 16.1329 18.4256 17.1714 20.6718 14.8981C23.042 12.223 24.6812 8.22404 24.747 8.06129C24.8439 7.82879 24.9279 7.75 25.2327 7.75H28.4115H28.4244C28.4231 7.75387 28.4231 7.75775 28.4218 7.76162C28.1312 9.11787 25.2624 13.4398 24.3027 14.7818C24.2872 14.8025 24.273 14.8245 24.2588 14.8464C23.8364 15.5362 23.4928 16.2982 24.3169 17.3703H24.3182C24.3931 17.4607 24.5882 17.6726 24.8723 17.9671C25.7558 18.879 28.7861 21.9971 29.0547 23.2371C28.8765 23.2655 28.6828 23.2448 25.6796 23.2513C25.0403 23.2513 24.5404 22.2955 22.6326 20.3709C20.9172 18.702 19.8038 18.02 18.7899 18.02C16.8214 18.02 16.9647 19.6178 16.9828 21.5502C16.9893 23.6453 16.9764 22.9826 16.9906 23.1144C16.8756 23.1596 16.5462 23.25 15.6873 23.25C7.49167 23.25 2.1545 10.2416 1.94912 7.75517C2.02017 7.74871 2.99796 7.75258 5.23771 7.75129Z"
+                        fill="#FFFFFF" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="31" height="31" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="footer__metrika">
+              <img src="images/metrika.jpg" alt="Я метрика">
+            </div>
+            <div class="footer__author">
+              <a class="footer__author-link" href="#">
+                Создание сайта —
+                студия «Галактика»
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
